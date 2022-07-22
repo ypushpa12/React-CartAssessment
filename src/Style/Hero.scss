@@ -57,6 +57,16 @@
     display: block;
   }
 
+  .card-img img {
+    width: 28rem;
+    height: 163px;
+    margin-top: 11px;
+    margin-bottom: 30px;
+  }
+  .card-img{
+    width: 100%;
+  }
+
   .lines hr {
     margin: 3rem 7rem;
   }
@@ -70,6 +80,7 @@
 
   .herosection .card-body {
     height: 11rem;
+    width: 24rem;
     background-color: #1B252C;
   }
 
