@@ -1,20 +1,8 @@
 import React from 'react'
-// import Product from './Product'
-// import Products from './Products'
-// import maxwidth from '../images/max-width_header.jpg'
-// import "../Styles/Color.css"
-
-
-// import Productapi from './Productapi'
-// import Product from '../Compomnents/Product'
 import "../Style/Filter.scss"
-
-
-function Filter() {
+function Filter({ setCategory, selectedCategory}) {
     return (
-        // <div className='container'>
-        //     <div class="aem-Grid aem-Grid--12">
-        //         <div class="aem-GridColumn aem-GridColumn--default--3">
+
         <div className='filterone'>
             <div className='filter'>
                 <h6>Filters</h6>
@@ -30,7 +18,6 @@ function Filter() {
                 <label>Smart gear</label> <br />
                 <input type="checkbox" id="option" name="option" value="option" />
                 <label>Accessories</label> <br />
-                {/* <img src={maxwidth}/> */}
                 <hr />
             </div>
             <div>
@@ -67,6 +54,7 @@ function Filter() {
 
                 <hr />
             </div>
+           
         </div>
 
     )
